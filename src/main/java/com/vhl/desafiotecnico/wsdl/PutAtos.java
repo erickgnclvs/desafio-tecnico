@@ -1,7 +1,7 @@
 
 package com.vhl.desafiotecnico.wsdl;
 
-import javax.activation.DataHandler;
+import jakarta.activation.DataHandler;
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlMimeType;
