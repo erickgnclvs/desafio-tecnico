@@ -10,6 +10,8 @@ package samples.service.xmlbeans;
  *  SeloServiceStub java implementation
  */
 
+import org.apache.axis2.transport.TransportUtils;
+
 public class SeloServiceStub extends org.apache.axis2.client.Stub {
   protected org.apache.axis2.description.AxisOperation[] _operations;
 
@@ -705,7 +707,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getSituacoesDeTitulo
+   * @see samples.service.xmlbeans.SeloServiceStub#getSituacoesDeTitulo
    * @param getSituacoesDeTitulo
    */
   public br.jus.tjsc.www.selo.GetSituacoesDeTituloResponseDocument getSituacoesDeTitulo(
@@ -760,7 +762,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetSituacoesDeTituloResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetSituacoesDeTituloResponseDocument) object;
 
@@ -827,7 +829,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getTiposDeCobranca
+   * @see samples.service.xmlbeans.SeloServiceStub#getTiposDeCobranca
    * @param getTiposDeCobranca
    */
   public br.jus.tjsc.www.selo.GetTiposDeCobrancaResponseDocument getTiposDeCobranca(
@@ -882,7 +884,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetTiposDeCobrancaResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetTiposDeCobrancaResponseDocument) object;
 
@@ -949,7 +951,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getTiposDeCobranca20
+   * @see samples.service.xmlbeans.SeloServiceStub#getTiposDeCobranca20
    * @param getTiposDeCobranca20
    */
   public br.jus.tjsc.www.selo.GetTiposDeCobranca20ResponseDocument getTiposDeCobranca20(
@@ -1004,7 +1006,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetTiposDeCobranca20ResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetTiposDeCobranca20ResponseDocument) object;
 
@@ -1071,7 +1073,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getJuizesDePaz
+   * @see samples.service.xmlbeans.SeloServiceStub#getJuizesDePaz
    * @param getJuizesDePaz
    * @throws samples.service.xmlbeans.ExceptionException :
    */
@@ -1126,7 +1128,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetJuizesDePazResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetJuizesDePazResponseDocument) object;
 
@@ -1195,7 +1197,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getSelosPedido
+   * @see samples.service.xmlbeans.SeloServiceStub#getSelosPedido
    * @param getSelosPedido
    * @throws samples.service.xmlbeans.ExceptionException :
    */
@@ -1250,7 +1252,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetSelosPedidoResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetSelosPedidoResponseDocument) object;
 
@@ -1319,7 +1321,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getTiposDeSubestabelecimento
+   * @see samples.service.xmlbeans.SeloServiceStub#getTiposDeSubestabelecimento
    * @param getTiposDeSubestabelecimento
    */
   public br.jus.tjsc.www.selo.GetTiposDeSubestabelecimentoResponseDocument
@@ -1376,7 +1378,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetTiposDeSubestabelecimentoResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetTiposDeSubestabelecimentoResponseDocument) object;
 
@@ -1444,7 +1446,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getBancos
+   * @see samples.service.xmlbeans.SeloServiceStub#getBancos
    * @param getBancos
    */
   public br.jus.tjsc.www.selo.GetBancosResponseDocument getBancos(
@@ -1495,7 +1497,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetBancosResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetBancosResponseDocument) object;
 
@@ -1560,7 +1562,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getCartorioLivros20
+   * @see samples.service.xmlbeans.SeloServiceStub#getCartorioLivros20
    * @param getCartorioLivros20
    * @throws samples.service.xmlbeans.ExceptionException :
    */
@@ -1616,7 +1618,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetCartorioLivros20ResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetCartorioLivros20ResponseDocument) object;
 
@@ -1687,7 +1689,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getEtnias
+   * @see samples.service.xmlbeans.SeloServiceStub#getEtnias
    * @param getEtnias
    */
   public br.jus.tjsc.www.selo.GetEtniasResponseDocument getEtnias(
@@ -1738,7 +1740,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetEtniasResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetEtniasResponseDocument) object;
 
@@ -1803,7 +1805,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getTiposDeRegistroDeAverbacao
+   * @see samples.service.xmlbeans.SeloServiceStub#getTiposDeRegistroDeAverbacao
    * @param getTiposDeRegistroDeAverbacao
    */
   public br.jus.tjsc.www.selo.GetTiposDeRegistroDeAverbacaoResponseDocument
@@ -1860,7 +1862,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetTiposDeRegistroDeAverbacaoResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetTiposDeRegistroDeAverbacaoResponseDocument) object;
 
@@ -1928,7 +1930,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getTiposDeTelefone
+   * @see samples.service.xmlbeans.SeloServiceStub#getTiposDeTelefone
    * @param getTiposDeTelefone
    */
   public br.jus.tjsc.www.selo.GetTiposDeTelefoneResponseDocument getTiposDeTelefone(
@@ -1983,7 +1985,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetTiposDeTelefoneResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetTiposDeTelefoneResponseDocument) object;
 
@@ -2050,7 +2052,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getTiposDeTestamento
+   * @see samples.service.xmlbeans.SeloServiceStub#getTiposDeTestamento
    * @param getTiposDeTestamento
    */
   public br.jus.tjsc.www.selo.GetTiposDeTestamentoResponseDocument getTiposDeTestamento(
@@ -2105,7 +2107,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetTiposDeTestamentoResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetTiposDeTestamentoResponseDocument) object;
 
@@ -2172,7 +2174,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getComarcas
+   * @see samples.service.xmlbeans.SeloServiceStub#getComarcas
    * @param getComarcas
    */
   public br.jus.tjsc.www.selo.GetComarcasResponseDocument getComarcas(
@@ -2225,7 +2227,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetComarcasResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetComarcasResponseDocument) object;
 
@@ -2290,7 +2292,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getTiposDeDocumento
+   * @see samples.service.xmlbeans.SeloServiceStub#getTiposDeDocumento
    * @param getTiposDeDocumento
    */
   public br.jus.tjsc.www.selo.GetTiposDeDocumentoResponseDocument getTiposDeDocumento(
@@ -2345,7 +2347,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetTiposDeDocumentoResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetTiposDeDocumentoResponseDocument) object;
 
@@ -2412,7 +2414,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getTiposDeAto
+   * @see samples.service.xmlbeans.SeloServiceStub#getTiposDeAto
    * @param getTiposDeAto
    */
   public br.jus.tjsc.www.selo.GetTiposDeAtoResponseDocument getTiposDeAto(
@@ -2465,7 +2467,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetTiposDeAtoResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetTiposDeAtoResponseDocument) object;
 
@@ -2530,7 +2532,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getTiposDeSelo
+   * @see samples.service.xmlbeans.SeloServiceStub#getTiposDeSelo
    * @param getTiposDeSelo
    */
   public br.jus.tjsc.www.selo.GetTiposDeSeloResponseDocument getTiposDeSelo(
@@ -2583,7 +2585,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetTiposDeSeloResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetTiposDeSeloResponseDocument) object;
 
@@ -2648,7 +2650,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getMoedas
+   * @see samples.service.xmlbeans.SeloServiceStub#getMoedas
    * @param getMoedas
    */
   public br.jus.tjsc.www.selo.GetMoedasResponseDocument getMoedas(
@@ -2699,7 +2701,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetMoedasResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetMoedasResponseDocument) object;
 
@@ -2764,7 +2766,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getMotivosDeProtesto
+   * @see samples.service.xmlbeans.SeloServiceStub#getMotivosDeProtesto
    * @param getMotivosDeProtesto
    */
   public br.jus.tjsc.www.selo.GetMotivosDeProtestoResponseDocument getMotivosDeProtesto(
@@ -2819,7 +2821,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetMotivosDeProtestoResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetMotivosDeProtestoResponseDocument) object;
 
@@ -2886,7 +2888,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getEstadosCivis
+   * @see samples.service.xmlbeans.SeloServiceStub#getEstadosCivis
    * @param getEstadosCivis
    */
   public br.jus.tjsc.www.selo.GetEstadosCivisResponseDocument getEstadosCivis(
@@ -2940,7 +2942,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetEstadosCivisResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetEstadosCivisResponseDocument) object;
 
@@ -3007,7 +3009,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getPaises
+   * @see samples.service.xmlbeans.SeloServiceStub#getPaises
    * @param getPaises
    */
   public br.jus.tjsc.www.selo.GetPaisesResponseDocument getPaises(
@@ -3058,7 +3060,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetPaisesResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetPaisesResponseDocument) object;
 
@@ -3123,7 +3125,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getEscolaridades
+   * @see samples.service.xmlbeans.SeloServiceStub#getEscolaridades
    * @param getEscolaridades
    */
   public br.jus.tjsc.www.selo.GetEscolaridadesResponseDocument getEscolaridades(
@@ -3177,7 +3179,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetEscolaridadesResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetEscolaridadesResponseDocument) object;
 
@@ -3244,7 +3246,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#verificaTransmissao
+   * @see samples.service.xmlbeans.SeloServiceStub#verificaTransmissao
    * @param verificaTransmissao
    * @throws samples.service.xmlbeans.ExceptionException :
    */
@@ -3300,7 +3302,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.VerificaTransmissaoResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.VerificaTransmissaoResponseDocument) object;
 
@@ -3371,7 +3373,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getEspeciesDeTitulo
+   * @see samples.service.xmlbeans.SeloServiceStub#getEspeciesDeTitulo
    * @param getEspeciesDeTitulo
    */
   public br.jus.tjsc.www.selo.GetEspeciesDeTituloResponseDocument getEspeciesDeTitulo(
@@ -3426,7 +3428,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetEspeciesDeTituloResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetEspeciesDeTituloResponseDocument) object;
 
@@ -3493,7 +3495,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getSelosPedidoCompactados
+   * @see samples.service.xmlbeans.SeloServiceStub#getSelosPedidoCompactados
    * @param getSelosPedidoCompactados
    * @throws samples.service.xmlbeans.ExceptionException :
    */
@@ -3550,7 +3552,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetSelosPedidoCompactadosResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetSelosPedidoCompactadosResponseDocument) object;
 
@@ -3622,7 +3624,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getCartorioServentuarios20
+   * @see samples.service.xmlbeans.SeloServiceStub#getCartorioServentuarios20
    * @param getCartorioServentuarios20
    * @throws samples.service.xmlbeans.ExceptionException :
    */
@@ -3679,7 +3681,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetCartorioServentuarios20ResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetCartorioServentuarios20ResponseDocument) object;
 
@@ -3751,7 +3753,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getMotivosDeCancelamentoDoProtesto
+   * @see samples.service.xmlbeans.SeloServiceStub#getMotivosDeCancelamentoDoProtesto
    * @param getMotivosDeCancelamentoDoProtesto
    */
   public br.jus.tjsc.www.selo.GetMotivosDeCancelamentoDoProtestoResponseDocument
@@ -3809,7 +3811,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetMotivosDeCancelamentoDoProtestoResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetMotivosDeCancelamentoDoProtestoResponseDocument) object;
 
@@ -3877,7 +3879,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#decodificaRecibo
+   * @see samples.service.xmlbeans.SeloServiceStub#decodificaRecibo
    * @param decodificaRecibo
    * @throws samples.service.xmlbeans.ExceptionException :
    */
@@ -3932,7 +3934,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.DecodificaReciboResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.DecodificaReciboResponseDocument) object;
 
@@ -4003,7 +4005,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getJuizesDePaz20
+   * @see samples.service.xmlbeans.SeloServiceStub#getJuizesDePaz20
    * @param getJuizesDePaz20
    * @throws samples.service.xmlbeans.ExceptionException :
    */
@@ -4058,7 +4060,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetJuizesDePaz20ResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetJuizesDePaz20ResponseDocument) object;
 
@@ -4129,7 +4131,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getTiposDeServentuario
+   * @see samples.service.xmlbeans.SeloServiceStub#getTiposDeServentuario
    * @param getTiposDeServentuario
    */
   public br.jus.tjsc.www.selo.GetTiposDeServentuarioResponseDocument getTiposDeServentuario(
@@ -4185,7 +4187,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetTiposDeServentuarioResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetTiposDeServentuarioResponseDocument) object;
 
@@ -4253,7 +4255,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getComarcasMunicipios
+   * @see samples.service.xmlbeans.SeloServiceStub#getComarcasMunicipios
    * @param getComarcasMunicipios
    */
   public br.jus.tjsc.www.selo.GetComarcasMunicipiosResponseDocument getComarcasMunicipios(
@@ -4309,7 +4311,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetComarcasMunicipiosResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetComarcasMunicipiosResponseDocument) object;
 
@@ -4377,7 +4379,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getCartorioServentuarios
+   * @see samples.service.xmlbeans.SeloServiceStub#getCartorioServentuarios
    * @param getCartorioServentuarios
    * @throws samples.service.xmlbeans.ExceptionException :
    */
@@ -4434,7 +4436,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetCartorioServentuariosResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetCartorioServentuariosResponseDocument) object;
 
@@ -4506,7 +4508,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getCartorioLivros
+   * @see samples.service.xmlbeans.SeloServiceStub#getCartorioLivros
    * @param getCartorioLivros
    * @throws samples.service.xmlbeans.ExceptionException :
    */
@@ -4562,7 +4564,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetCartorioLivrosResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetCartorioLivrosResponseDocument) object;
 
@@ -4633,7 +4635,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getProfissoes
+   * @see samples.service.xmlbeans.SeloServiceStub#getProfissoes
    * @param getProfissoes
    */
   public br.jus.tjsc.www.selo.GetProfissoesResponseDocument getProfissoes(
@@ -4686,7 +4688,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetProfissoesResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetProfissoesResponseDocument) object;
 
@@ -4751,7 +4753,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getCartorios
+   * @see samples.service.xmlbeans.SeloServiceStub#getCartorios
    * @param getCartorios
    */
   public br.jus.tjsc.www.selo.GetCartoriosResponseDocument getCartorios(
@@ -4804,7 +4806,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetCartoriosResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetCartoriosResponseDocument) object;
 
@@ -4869,7 +4871,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getMunicipios
+   * @see samples.service.xmlbeans.SeloServiceStub#getMunicipios
    * @param getMunicipios
    */
   public br.jus.tjsc.www.selo.GetMunicipiosResponseDocument getMunicipios(
@@ -4922,7 +4924,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetMunicipiosResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetMunicipiosResponseDocument) object;
 
@@ -4987,7 +4989,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#redisponibilizaUltimaTransmissaoSelos
+   * @see samples.service.xmlbeans.SeloServiceStub#redisponibilizaUltimaTransmissaoSelos
    * @param redisponibilizaUltimaTransmissaoSelos
    * @throws samples.service.xmlbeans.ExceptionException :
    */
@@ -5047,7 +5049,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.RedisponibilizaUltimaTransmissaoSelosResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.RedisponibilizaUltimaTransmissaoSelosResponseDocument) object;
 
@@ -5119,7 +5121,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getSelosCompactados
+   * @see samples.service.xmlbeans.SeloServiceStub#getSelosCompactados
    * @param getSelosCompactados
    * @throws samples.service.xmlbeans.ExceptionException :
    */
@@ -5175,7 +5177,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetSelosCompactadosResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetSelosCompactadosResponseDocument) object;
 
@@ -5246,7 +5248,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getTiposDeEndereco
+   * @see samples.service.xmlbeans.SeloServiceStub#getTiposDeEndereco
    * @param getTiposDeEndereco
    */
   public br.jus.tjsc.www.selo.GetTiposDeEnderecoResponseDocument getTiposDeEndereco(
@@ -5301,7 +5303,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetTiposDeEnderecoResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetTiposDeEnderecoResponseDocument) object;
 
@@ -5368,7 +5370,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getSelos
+   * @see samples.service.xmlbeans.SeloServiceStub#getSelos
    * @param getSelos
    * @throws samples.service.xmlbeans.ExceptionException :
    */
@@ -5421,7 +5423,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetSelosResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetSelosResponseDocument) object;
 
@@ -5490,7 +5492,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getTiposDeAto20
+   * @see samples.service.xmlbeans.SeloServiceStub#getTiposDeAto20
    * @param getTiposDeAto20
    */
   public br.jus.tjsc.www.selo.GetTiposDeAto20ResponseDocument getTiposDeAto20(
@@ -5544,7 +5546,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetTiposDeAto20ResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetTiposDeAto20ResponseDocument) object;
 
@@ -5611,7 +5613,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getTiposDeProcuracao
+   * @see samples.service.xmlbeans.SeloServiceStub#getTiposDeProcuracao
    * @param getTiposDeProcuracao
    */
   public br.jus.tjsc.www.selo.GetTiposDeProcuracaoResponseDocument getTiposDeProcuracao(
@@ -5666,7 +5668,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetTiposDeProcuracaoResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetTiposDeProcuracaoResponseDocument) object;
 
@@ -5733,7 +5735,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getTiposDeEndosso
+   * @see samples.service.xmlbeans.SeloServiceStub#getTiposDeEndosso
    * @param getTiposDeEndosso
    */
   public br.jus.tjsc.www.selo.GetTiposDeEndossoResponseDocument getTiposDeEndosso(
@@ -5788,7 +5790,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetTiposDeEndossoResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetTiposDeEndossoResponseDocument) object;
 
@@ -5855,7 +5857,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getEntesDeclaradosUtilidadePublicaEstadual
+   * @see samples.service.xmlbeans.SeloServiceStub#getEntesDeclaradosUtilidadePublicaEstadual
    * @param getEntesDeclaradosUtilidadePublicaEstadual
    * @throws samples.service.xmlbeans.ExceptionException :
    */
@@ -5916,7 +5918,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetEntesDeclaradosUtilidadePublicaEstadualResponseDocument
                   .class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetEntesDeclaradosUtilidadePublicaEstadualResponseDocument)
           object;
@@ -5989,7 +5991,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#putAtos
+   * @see samples.service.xmlbeans.SeloServiceStub#putAtos
    * @param putAtos
    * @throws samples.service.xmlbeans.ExceptionException :
    */
@@ -6042,7 +6044,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.PutAtosResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.PutAtosResponseDocument) object;
 
@@ -6111,7 +6113,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getEstados
+   * @see samples.service.xmlbeans.SeloServiceStub#getEstados
    * @param getEstados
    */
   public br.jus.tjsc.www.selo.GetEstadosResponseDocument getEstados(
@@ -6162,7 +6164,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetEstadosResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetEstadosResponseDocument) object;
 
@@ -6227,7 +6229,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getFormasDePagamento
+   * @see samples.service.xmlbeans.SeloServiceStub#getFormasDePagamento
    * @param getFormasDePagamento
    */
   public br.jus.tjsc.www.selo.GetFormasDePagamentoResponseDocument getFormasDePagamento(
@@ -6282,7 +6284,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetFormasDePagamentoResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetFormasDePagamentoResponseDocument) object;
 
@@ -6349,7 +6351,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
   /**
    * Auto generated method signature
    *
-   * @see samples.service.xmlbeans.SeloService#getTiposDeEmail
+   * @see samples.service.xmlbeans.SeloServiceStub#getTiposDeEmail
    * @param getTiposDeEmail
    */
   public br.jus.tjsc.www.selo.GetTiposDeEmailResponseDocument getTiposDeEmail(
@@ -6403,7 +6405,7 @@ public class SeloServiceStub extends org.apache.axis2.client.Stub {
           fromOM(
               _returnEnv.getBody().getFirstElement(),
               br.jus.tjsc.www.selo.GetTiposDeEmailResponseDocument.class);
-      org.apache.axis2.kernel.TransportUtils.detachInputStream(_returnMessageContext);
+      TransportUtils.detachInputStream(_returnMessageContext);
 
       return (br.jus.tjsc.www.selo.GetTiposDeEmailResponseDocument) object;
 
